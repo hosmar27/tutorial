@@ -1,0 +1,35 @@
+body,html{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.conteudo{
+    display:flex;
+    flex-direction: row;
+    background-color: silver;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 100vh;
+    align-content: space-around;
+}
+
+
+.card{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.centralizado
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+   align-content: center;
+}
